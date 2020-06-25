@@ -7,7 +7,7 @@ main(){
      //sum array to store the result but the program stores the result in reverse order
 	char sum[52];
 	
-	int l1 = strlen(s1),l2 = strlen(s2),index = 0,carry=0,value,i,j;
+	int l1 = strlen(s1),int l2 = strlen(s2),index = 0,carry=0,value,i,j;
 	/*
 	  l1-> number of digits in 1st number
 	  l2->number of digits in 2nd number
