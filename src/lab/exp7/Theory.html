@@ -43,7 +43,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			                    <span class="icon-bar" style="background-color: #77BB41"></span>
 			                    <span class="icon-bar" style="background-color: #77BB41"></span>
 			                </button>
-			                <a class="navbar-brand main-logo-a" href="http://vlabs.ac.in/index.html"><img class="img-responsive main-logo" src="../images/logo-new.png"/></a>
+			                <a class="navbar-brand main-logo-a" href="http://vlabs.ac.in/index.html"><img alt="img-responsive main-logo" src="../images/logo-new.png"/></a>
 			            </div>			
 			                        
 			            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -91,10 +91,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			
 			<!-- =================================================================================================================================== -->
 			<div class="container-fluid" style="margin-left: 35px; margin-right: 35px;">
-				<h2 class="text-h2-lightblue" style=" margin-bottom: 20px; margin-top: 10px; "><a class="sidebar-a" href="http://vlabs.ac.in/computer-science-and-engineering-labs.html">Computer Science &amp; Engineering</a> →<a class="sidebar-a" href="../Introduction.html">Problem Solving Lab</a> →<a class="sidebar-a" href="../List of experiments.html">List Of Experiments</a><br/></h2>
+				<h2 class="text-h2-lightblue" style=" margin-bottom: 20px; margin-top: 10px; "><a class="sidebar-a" href="http://vlabs.ac.in/computer-science-and-engineering-labs.html">Computer Science &amp; Engineering</a> →<a class="sidebar-a" href="../Introduction.html">Problem Solving Lab</a> →<a class="sidebar-a" href="../List-of-experiments.html">List Of Experiments</a><br/></h2>
 					
 					<div class="row">
-						<div class="col-md-2 sidebar-col-2"><a class="sidebar-a" href="Introduction.html?domain=Computer Science&amp;lab=Problem Solving Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Introduction </h3> </a><a class="sidebar-a" href="Theory.html?domain=Computer Science&amp;lab=Problem Solving Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Theory </h3> </a><a class="sidebar-a" href="Objective.html?domain=Computer Science&amp;lab=Problem Solving Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Objective </h3> </a><a class="sidebar-a" href="Manual.html?domain=Computer Science&amp;lab=Problem Solving Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Manual </h3> </a><a class="sidebar-a" href="Experiment.html?domain=Computer Science&amp;lab=Problem Solving Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Experiment </h3> </a><a class="sidebar-a" href="Quizzes.html?domain=Computer Science&amp;lab=Problem Solving Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Quizzes </h3> </a><a class="sidebar-a" href="Feedback.html?domain=Computer Science&amp;lab=Problem Solving Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Feedback </h3> </a></div>
+						<div class="col-md-2 sidebar-col-2"><a class="sidebar-a" href="Introduction.html?domain=Computer-Science&amp;lab=Problem-Solving-Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Introduction </h3> </a><a class="sidebar-a" href="Theory.html?domain=Computer-Science&amp;lab=Problem-Solving-Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Theory </h3> </a><a class="sidebar-a" href="Objective.html?domain=Computer-Science&amp;lab=Problem-Solving-Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Objective </h3> </a><a class="sidebar-a" href="Manual.html?domain=Computer-Science&amp;lab=Problem-Solving-Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Manual </h3> </a><a class="sidebar-a" href="Experiment.html?domain=Computer-Science&amp;lab=Problem-Solving-Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Experiment </h3> </a><a class="sidebar-a" href="Quizzes.html?domain=Computer-Science&amp;lab=Problem-Solving-Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Quizzes </h3> </a><a class="sidebar-a" href="Feedback.html?domain=Computer-Science&amp;lab=Problem-Solving-Lab"> <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Feedback </h3> </a></div>
 						
 						<div class="col-md-10 lab-list-col-10">
 							
@@ -106,7 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 If numbers are to big to fit into standard data types, then we can use strings to store the number. In this case, addition of two number would require doing digit by digit addition along with required carry over getting transferred to the next higher order cell. Lets suppose that the longer of two of the input numbers is of length L. Then the size of the result would be at maximum L+1. Now, for doing addition, you need to place two separate indices at the end of the two numbers annd do an addition of the two digits there. Beware that the two digits are stored in character format, so subtract 10 from each of them before adding them. If this addition results in a number greater than 10, then write down the unit digit of the result in right most cell of the result string and note down the carry forward. If the result of the addition is less than 10 then then no need to worry about the carry forward. Now repeat this process by having moved all the three indices one place to the left, and keep repeating till the longer of the two numbers is traversed. If one of the input number runs out of digits then assume it to be supplying 0. Finally, output the result string on the screen.
 
 </p>
-<p align="right"></p>
+<p>align="right"</p>
 <br/>
 <h2>Problem 2</h2>
 <br/>
@@ -119,7 +119,7 @@ A number x is said to be a square root of N if x*x=N.Thus is it quite obvious th
 <p>
 If you analyze the number of operations it takes this function to run it is easy to see that it will take logN (logN to base 2) operations. At every step of the search we chose either (start,mid-1) or (mid+1,end) which means the interval size gets reduced by half. Initially the range is N, in the next step it will become N/2, then N/4, and so after x steps the search range will be N/(2^x) which will be 1 when x is logN. So, the number of iterations is log(N).
 </p>
-<p align="right"></p>
+<p>align="right"</p>
 <br/></div>						</div>
 					</div>
 			</div>
